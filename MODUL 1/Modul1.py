@@ -5,7 +5,7 @@ def cetakSiku(x):
         print("*"*a)
         a+=1
 
-print("Nomer 1")
+print("Sekarang Nomor 1")
 cetakSiku(5)
 
 ###-----Nomer2-----###
@@ -16,7 +16,7 @@ def gambarlahPesegiEmpat(a,b):
        print("@"+" "*(b-2)+"@")
        x+=1
     print("@"*b)
-print("Nomer 2")    
+print("Sekarang Nomor 2")    
 gambarlahPesegiEmpat(5,5)
 
 ###-----Nomer3-----###
@@ -29,9 +29,9 @@ def jumlahhurufVokal(a):
         if i in v:
             vokal+=1
     return (vokal,jumlahhuruf)
-print("Nomer 3 A")
+print("Sekarang Nomor 3 A")
 print(jumlahhurufVokal("Surakarta"))
-print("Nomer 3 B")
+print("Sekarang Nomor 3 B")
 def jumlahhurufKonsonan(a):
     v="bcdfghjklmnpqrstvwxyz"
     konsonan=0
@@ -44,7 +44,7 @@ def jumlahhurufKonsonan(a):
 print(jumlahhurufKonsonan("Surakarta"))
 
 ###-----Nomer4-----###
-print("Nomer 4")
+print("Sekarang Nomor 4")
 def rerata(b=[]):
     x=0
     n=0
@@ -61,7 +61,7 @@ w=rerata(g)
 print w
 
 ###-----Nomer 5 -----###
-print("Nomer 5")
+print("Sekarang Nomor 5")
 from math import sqrt as sq
 def apakahPrima(n):
     n=int(n)
@@ -82,7 +82,7 @@ print(apakahPrima(97))
 print(apakahPrima(123))
 
 ###-----Nomer 6 -----###
-print("Nomer 6")
+print("Sekarang Nomor 6")
 def bilanganprima():
     prima=list()
     for i in range(2,100):
@@ -97,7 +97,7 @@ def bilanganprima():
 bilanganprima()
 
 ###-----Nomer 7 -----###
-print("Nomer 7")
+print("Sekarang Nomor 7")
 def faktorPrima(n):
     prima=list()
     for i in range(2,n):
@@ -114,7 +114,7 @@ print(faktorPrima(120))
 print(faktorPrima(19))
 
 ###-----Nomer 8 -----###
-print("Nomer 8")
+print("Sekarang Nomor 8")
 def apakahTerkandung(a,b):
     return a in b
 h ="do"
@@ -123,7 +123,7 @@ print(apakahTerkandung(h,k))
 print(apakahTerkandung("pusaka",k))
 
 ###-----Nomer 9 -----###
-print("Nomer 9")
+print("Sekarang Nomor 9")
 def coba():
     for x in range(1,100):
         if (x%3)!=0 and (x%5)!=0:
@@ -138,7 +138,7 @@ def coba():
 coba()
 
 ###-----Nomer 10 -----###
-print("Nomer 10")
+print("Sekarang Nomor 10")
 def selesaikanABC(a,b,c):
     a=float(a)
     b=float(b)
@@ -150,7 +150,7 @@ def selesaikanABC(a,b,c):
 print(selesaikanABC(1,2,3))
 
 ###-----Nomer 11 -----###
-print("Nomer 11")
+print("Sekarang Nomor 11")
 def apakahkabisat(x):
     if(x%400==0):
         return True
@@ -162,7 +162,7 @@ def apakahkabisat(x):
 print(apakahkabisat(2400))
 
 ###-----Nomer 12 -----###
-print("Nomer 12")
+print("Sekarang Nomor 12")
 import random
 def permainanTA():
     a=random.randrange(0, 100)
@@ -178,7 +178,7 @@ def permainanTA():
 print("belum dimasukan Perintah 'permainanTA'")
 
 ###-----Nomer 13 -----###
-print("Nomer 13")
+print("Sekarang Nomor 13")
 def katakan(a):
     x={"0":"","1":"Se","2":"Dua ","3":"Tiga ","4":"Empat ","5":"Lima ","6":"Enam ","7":"Tujuh ","8":"Delapan ","9":"Sembilan "}
     y={-1:"",-2:"puluh ",-3:"ratus ",-4:"ribu ",-5:"puluh ",-6:"ratus ",-7:"juta ",8:"puluhjuta "}
@@ -192,7 +192,7 @@ def katakan(a):
 print(katakan(3125750))
 
 ###-----Nomer 14 -----###
-print("Nomer 14")
+print("Sekarang Nomor 14")
 def formatRupiah(x):
     y=str(x)
     z=""
